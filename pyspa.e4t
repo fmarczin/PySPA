@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-3.8.dtd">
+<!-- eric4 tasks file for project pyspa -->
+<!-- Saved: 2007-07-05, 14:01:58 -->
+<Tasks version="3.8">
+  <Task priority="1" completed="False" bugfix="False">
+    <Description>TODO: use the decimal module for number displays (maybe for calculations too?)</Description>
+    <Created>2007-07-04, 09:53:26</Created>
+    <Resource>
+      <Filename>
+        <Dir>gui</Dir>
+        <Name>imagewindow.py</Name>
+      </Filename>
+      <Linenumber>9</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Description>TODO: make the image window more aware of non-height (eg. dIdU) images</Description>
+    <Created>2007-07-04, 09:53:26</Created>
+    <Resource>
+      <Filename>
+        <Dir>gui</Dir>
+        <Name>imagewindow.py</Name>
+      </Filename>
+      <Linenumber>10</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Description>TODO: make Makefiles platform-independent, then remove generated files from version control</Description>
+    <Created>2007-07-05, 14:01:44</Created>
+    <Resource>
+      <Filename>
+        <Name>sxm.py</Name>
+      </Filename>
+      <Linenumber>3</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Description>TODO: when the main window is closed, image windows should be closed as well</Description>
+    <Created>2007-07-05, 14:01:44</Created>
+    <Resource>
+      <Filename>
+        <Name>sxm.py</Name>
+      </Filename>
+      <Linenumber>4</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>

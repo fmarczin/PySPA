@@ -1,0 +1,104 @@
+;
+;               Omicron SPM Control.
+;           Parameter file for SPM data.
+;
+
+Format                          : 1
+
+Version                         : V2.2
+System                          : SCALA
+
+;
+; User Information.
+;
+
+Date                            : 18.06.04 10:50
+User                            : spm
+Comment                         : [401] 
+                                  Ir(111): prep. 18.06.04
+                                  sputtern: 15h @ RT, 2e-5mbar, 
+                                  	25mA, 600V
+                                  anneal: P=120W, t=5min (1300C)
+
+;
+; Scanner Description.
+;
+
+Name                            : MBE_STM_15JAN2004.SCA
+VGAP Contact                    : SAMPLE
+
+;
+; Scanner Area Description.
+;
+
+Field X Size in nm              : 1000.00     ;[nm]
+Field Y Size in nm              : 1000.00     ;[nm]
+Image Size in X                 : 1000
+Image Size in Y                 : 1000
+Increment X                     : 1.00000     ;[nm]
+Increment Y                     : 1.00000     ;[nm]
+Scan Angle                      : -30.0000     ;[Degree]
+X Offset                        : 0.00000     ;[nm]
+Y Offset                        : 0.00000     ;[nm]
+
+;
+; Topographic Channels.
+;
+
+Topographic Channel             : Z   ;Channel
+                                  Forward 
+                                  -32767   ;Minimum raw value
+                                  32766   ;Maximum raw value
+                                  -60.000   ;Minimum value in physical unit
+                                  59.998   ;Maximum value in physical unit
+                                  0.0018311   ;Resolution
+                                  nm   ;Physical unit
+                                  m401_ori.tf0   ;Filename
+                                  Z   ;Display name
+
+Topographic Channel             : Z   ;Channel
+                                  Backward
+                                  -32767   ;Minimum raw value
+                                  32766   ;Maximum raw value
+                                  -60.000   ;Minimum value in physical unit
+                                  59.998   ;Maximum value in physical unit
+                                  0.0018311   ;Resolution
+                                  nm   ;Physical unit
+                                  m401_ori.tb0   ;Filename
+                                  Z   ;Display name
+
+;
+; Measurement parameters.
+;
+
+SPM Method                      : STM
+Dual mode                       : On
+Delay                           : 1000     ;[us] (Forward)
+                                  1000     ;[us] (Backward)
+Gap Voltage                     : 1.00000     ;[V] (Forward)
+                                  1.00000     ;[V] (Backward)
+Feedback Set                    : 0.100000     ;[nA] (Forward)
+                                  0.100000     ;[nA] (Backward)
+Loop Gain                       : 2.00000     ;[%] (Forward)
+                                  2.00000     ;[%] (Backward)
+X Resolution                    : 0     ;Currently not used.
+Y Resolution                    : 0     ;Currently not used.
+Scan Speed                      : 2222.22     ;[nm/s]
+X Drift                         : 0.00000     ;[nm/s]
+Y Drift                         : 0.00000     ;[nm/s]
+Scan Mode                       : Frame
+Topography Time per Point       : 0
+Spectroscopy Grid Value in X    : 10
+Spectroscopy Grid Value in Y    : 10
+Spectroscopy Points in X        : 100
+Spectroscopy Lines in Y         : 0
+
+;
+; Z Control Parameters.
+;
+
+Z Speed                         : 1000.00     ;[nm/s]
+Z Output Gain                   : 0.100000
+Automatic Z zero                : On
+Z Input Gain                    : 10.0000
+

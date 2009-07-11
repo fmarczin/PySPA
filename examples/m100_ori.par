@@ -1,0 +1,89 @@
+;
+;               Omicron SPM Control.
+;           Parameter file for SPM data.
+;
+
+Format                          : 1
+
+Version                         : V2.2
+System                          : SCALA
+
+;
+; User Information.
+;
+
+Date                            : 09.06.04 09:42
+User                            : spm
+Comment                         : [100] 
+                                  Ir(111), prep. 09.06.04, 08:30
+                                  Ir(111):  3x je 1h RT+630C sputter 
+                                       @pAr=4e-5mbar, Iemi=25mA, 
+                                       U=1keV, dann Flash@P=67W 
+                                       (T=1200C @ e=0.44), p=3e-9mbar
+
+;
+; Scanner Description.
+;
+
+Name                            : MBE_STM_15JAN2004.SCA
+VGAP Contact                    : SAMPLE
+
+;
+; Scanner Area Description.
+;
+
+Field X Size in nm              : 400.000     ;[nm]
+Field Y Size in nm              : 400.000     ;[nm]
+Image Size in X                 : 400
+Image Size in Y                 : 400
+Increment X                     : 1.00000     ;[nm]
+Increment Y                     : 1.00000     ;[nm]
+Scan Angle                      : 180.000     ;[Degree]
+X Offset                        : 3000.00     ;[nm]
+Y Offset                        : -1000.00     ;[nm]
+
+;
+; Topographic Channels.
+;
+
+Topographic Channel             : Z   ;Channel
+                                  Forward 
+                                  -32767   ;Minimum raw value
+                                  32766   ;Maximum raw value
+                                  -60.000   ;Minimum value in physical unit
+                                  59.998   ;Maximum value in physical unit
+                                  0.0018311   ;Resolution
+                                  nm   ;Physical unit
+                                  m100_ori.tf0   ;Filename
+                                  Z   ;Display name
+
+;
+; Measurement parameters.
+;
+
+SPM Method                      : STM
+Dual mode                       : Off
+Gap Voltage                     : -0.300000     ;[V]
+Feedback Set                    : 5.00000     ;[nA]
+Loop Gain                       : 6.00000     ;[%]
+X Resolution                    : 0     ;Currently not used.
+Y Resolution                    : 0     ;Currently not used.
+Scan Speed                      : 1204.82     ;[nm/s]
+X Drift                         : 0.00000     ;[nm/s]
+Y Drift                         : 0.00000     ;[nm/s]
+Scan Mode                       : Frame
+Topography Time per Point       : 0
+Spectroscopy Grid Value in X    : 1
+Spectroscopy Grid Value in Y    : 1
+Spectroscopy Points in X        : 400
+Spectroscopy Lines in Y         : 0
+
+;
+; Z Control Parameters.
+;
+
+Z Speed                         : 1000.00     ;[nm/s]
+Z Output Gain                   : 0.100000
+Automatic Z zero                : On
+Z Input Gain                    : 10.0000
+

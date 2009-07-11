@@ -1,0 +1,10 @@
+project(pyspa)
+
+include(pyqt4.cmake)
+
+add_pyqt_languages(de en)
+add_pyqt_designerforms(mainwindow about)
+add_pyqt_forms(imagewindow)
+add_pyqt_mainresource(sxmrc.py)
+
+build_pyqt_app()
